@@ -1,0 +1,13 @@
+{
+  "name": "Reactions!",
+  "description": "Derek had some fun with the code from the React tutorial",
+  "keywords": [ "react", "reactjs", "tutorial" ],
+  "repository": "https://github.com/derekmisler/CS-Courses/tree/master/React",
+  "logo": "http://www.derekmisler.com/view/images/apple-icon-180x180.png",
+  "website": "http://derekmisler.github.io",
+  "success_url": "/",
+  "env" : {
+    "BUILDPACK_URL": "https://github.com/heroku/heroku-buildpack-nodejs.git"
+  }
+}
+

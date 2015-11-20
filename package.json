@@ -1,0 +1,34 @@
+{
+  "name": "react-tutorial",
+  "version": "0.1.0",
+  "description": "Derek had some fun with the code from the React tutorial.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.4.3",
+    "express": "^4.4.5",
+    "sass-loader": "^3.1.1",
+    "webpack": "^1.12.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/derekmisler/CS-Courses/tree/master/React"
+  },
+  "keywords": [
+    "react",
+    "tutorial",
+    "comment",
+    "example"
+  ],
+  "author": "Derek Misler <derekmisler@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/derekmisler/CS-Courses/issues"
+  },
+  "homepage": "http://derekmisler.github.io",
+  "engines": {
+    "node": "0.12.x"
+  }
+}

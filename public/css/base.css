@@ -1,0 +1,182 @@
+/** Basic styling */
+*{
+  box-sizing: border-box;
+}
+body {
+  font: 300 20px/1.6 "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  color: #253a57;
+  background-color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+
+/** Headings */
+h1,
+h2,
+h4 {
+  font-weight: 700;
+  line-height: 1.2;
+  color: #D94700;
+  font-style: italic;
+  margin: 0;
+}
+h1,
+h2 {
+  font-family: "Playfair Display", Georgia, Serif;
+}
+h1 {
+  color: #D94700;
+  font-size: 3rem;
+}
+
+/** Wrapper */
+#wrapper {
+  position: relative;
+  max-width: 30rem;
+  margin: 2rem auto;
+  padding: 0;
+}
+
+/** Site header */
+header {
+  border-bottom: 1px solid #D94700;
+  text-align: center;
+}
+
+/** Site footer */
+footer {
+  border-top: 1px solid #D94700;
+}
+
+/** Comments */
+.commentAuthor{
+  font-size: 2rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: #D94700;
+  font-style: italic;
+  margin: 0;
+  padding: 0;
+}
+.commentComment p,
+.commentInput {
+  color: #253a57;
+  border-left: 1px solid #253a57;
+  padding-left: 1rem;
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0 0 2rem 0;
+  display: block;
+  font-weight: 300;
+}
+.commentForm {
+  border-top: 1px solid #D94700;
+  padding-top: 1rem;
+}
+/** Inputs **/
+input {
+  display: block;
+  background-color: transparent;
+  border: none;
+  padding: 1rem;
+  margin: 1rem 0;
+  width: 100%;
+  font-weight: 700;
+  font-size: 1.5rem;
+  outline: none;
+  position: relative;
+}
+input[type="submit"] {
+  box-shadow: 0px 2px 0px -1px #253a57;
+  border: 1px solid #253a57;
+}
+input:hover {
+  border-color: #D94700;
+}
+input[type="submit"]:hover {
+  box-shadow: 0px 2px 0px -1px #D94700;
+}
+input[type="submit"]:active {
+  box-shadow: 0px 0px 0px -0px #D94700;
+  top: 2px;
+}
+
+
+::-webkit-input-placeholder {
+  font-size: 2rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(217, 71, 0, .8);
+  font-style: italic;
+  margin: 0;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+  font-size: 2rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(217, 71, 0, .8);
+  font-style: italic;
+  margin: 0;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+  font-size: 2rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(217, 71, 0, .8);
+  font-style: italic;
+  margin: 0;
+}
+
+:-ms-input-placeholder {  
+  font-size: 2rem;
+  font-family: "Lato", "Helvetica Neue", Helvetica, Sans-Serif;
+  font-weight: 700;
+  line-height: 1.2;
+  color: rgba(217, 71, 0, .8);
+  font-style: italic;
+  margin: 0;
+}
+
+
+.commentInput::-webkit-input-placeholder {
+  color: rgba(37, 58, 87, .8);
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0 0 2rem 0;
+  display: block;
+  font-weight: 300;
+}
+
+.commentInput:-moz-placeholder { /* Firefox 18- */
+  color: rgba(37, 58, 87, .8);
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0 0 2rem 0;
+  display: block;
+  font-weight: 300;
+}
+
+.commentInput::-moz-placeholder {  /* Firefox 19+ */
+  color: rgba(37, 58, 87, .8);
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0 0 2rem 0;
+  display: block;
+  font-weight: 300;
+}
+
+.commentInput:-ms-input-placeholder {  
+  color: rgba(37, 58, 87, .8);
+  font-size: 1.5rem;
+  font-style: normal;
+  margin: 0 0 2rem 0;
+  display: block;
+  font-weight: 300;
+}
