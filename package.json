@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/derekmisler/CS-Courses/tree/master/React"
+    "url": "https://github.com/derekmisler/reactions.git"
   },
   "keywords": [
     "react",
@@ -25,9 +25,9 @@
   ],
   "author": "Derek Misler <derekmisler@gmail.com>",
   "bugs": {
-    "url": "https://github.com/derekmisler/CS-Courses/issues"
+    "url": "https://github.com/derekmisler/reactions/issues"
   },
-  "homepage": "http://derekmisler.github.io",
+  "homepage": "http://derekmisler.github.io/react-comments",
   "engines": {
     "node": "0.12.x"
   }
